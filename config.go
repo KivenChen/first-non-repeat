@@ -10,5 +10,5 @@ const ( // overall config of this module
 	BufferSizeBytes  int    = 1 << 20
 	infinityInt64    int64  = 1<<63 - 1
 	NumSplitConst    int64  = 1 << 20 * 50
-	delimiter        byte   = '\n'
+	delimiter        byte   = ' '
 )
