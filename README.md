@@ -15,5 +15,5 @@ MemoryLimitBytes int64  = 1 << 30 * 5   // size of hash map
 chanBufferSize   int    = 1 << 7        // channel size for file split IO
 BufferSizeBytes  int    = 1 << 20 * 1   // buffer size for file reader and writers
 infinityInt64    int64  = 1 << 63 - 1
-delimiter 		   byte   = ' '   // the delimiter byte that separates words
+delimiter        byte   = ' '   // the delimiter byte that separates words
 ```
